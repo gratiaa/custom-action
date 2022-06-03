@@ -5,7 +5,7 @@ RUN apk add --no-cache \
         httpie \
         jq && \
         which bash && \
-        whcih http && \
+        which http && \
         which jq
         
 COPY entrypoint.sh /usr/local/bin/entrypoint.sh
