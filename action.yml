@@ -1,0 +1,9 @@
+name: 'Custom Action Practice'
+description: 'A random action for practicing'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'gift'
+  color: 'red'
+  
